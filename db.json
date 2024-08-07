@@ -8,42 +8,7 @@
       "cuisine": "Việt Nam",
       "menu": {
         "dishes": [
-          {
-            "name": "Phở",
-            "price": 50000,
-            "description": "Món phở bò truyền thống",
-            "category": "Món chính"
-          },
-          {
-            "name": "Bánh mì",
-            "price": 30000,
-            "description": "Bánh mì thịt ngon bổ",
-            "category": "Món chính"
-          },
-          {
-            "name": "Gỏi cuốn",
-            "price": 40000,
-            "description": "Cuốn thịt và tôm tươi",
-            "category": "Món khai vị"
-          },
-          {
-            "name": "Cơm tấm",
-            "price": 60000,
-            "description": "Cơm tấm sườn nướng",
-            "category": "Món chính"
-          },
-          {
-            "name": "Bún thịt nướng",
-            "price": 55000,
-            "description": "Bún với thịt nướng và rau sống",
-            "category": "Món chính"
-          },
-          {
-            "name": "Chả giò",
-            "price": 35000,
-            "description": "Chả giò chiên giòn",
-            "category": "Món khai vị"
-          },
+          
           {
             "name": "Mì Quảng",
             "price": 60000,
@@ -171,48 +136,7 @@
       "cuisine": "Hàn Quốc",
       "menu": {
         "dishes": [
-          {
-            "name": "Thịt nướng",
-            "price": 150000,
-            "description": "Thịt bò nướng than",
-            "category": "Món chính"
-          },
-          {
-            "name": "Kim chi",
-            "price": 30000,
-            "description": "Món kim chi truyền thống",
-            "category": "Món khai vị"
-          },
-          {
-            "name": "Tàu hủ ky nướng",
-            "price": 60000,
-            "description": "Tàu hủ ky nướng mỡ hành",
-            "category": "Món chính"
-          },
-          {
-            "name": "Bánh xèo Hàn Quốc",
-            "price": 70000,
-            "description": "Bánh xèo với nhân thịt và rau sống",
-            "category": "Món chính"
-          },
-          {
-            "name": "Cá nướng",
-            "price": 80000,
-            "description": "Cá nướng với gia vị Hàn Quốc",
-            "category": "Món chính"
-          },
-          {
-            "name": "Sườn nướng",
-            "price": 130000,
-            "description": "Sườn heo nướng",
-            "category": "Món chính"
-          },
-          {
-            "name": "Bắp cải cuộn thịt",
-            "price": 60000,
-            "description": "Bắp cải nhồi thịt nướng",
-            "category": "Món chính"
-          },
+          
           {
             "name": "Canh kim chi",
             "price": 50000,
