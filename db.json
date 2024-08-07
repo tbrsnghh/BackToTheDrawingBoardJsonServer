@@ -1,26 +1,50 @@
 {  
   "food": [  
     {  
-      "categories": "chicken",  
-      "items": [  
-        {  
-          "id": "CH01",  
-          "name": "Cánh gà chiên",  
-          "price": 80000,  
-          "res_id": "RES01",  
-          "desc": "Cánh gà chiên ngon lắm",  
-          "img": ""  
-        },  
-        {  
-          "id": "CH02",  
-          "name": "Đùi gà chiên",  
-          "price": 180000,  
-          "res_id": "RES02",  
-          "desc": "Đùi gà chiên cx ngon lắm",  
-          "img": ""  
-        }  
-      ]  
+  "categories": "chicken",  
+  "items": [  
+    {  
+      "id": "CH01",  
+      "name": "Cánh gà chiên",  
+      "price": 80000,  
+      "res_id": "RES01",  
+      "desc": "Cánh gà chiên giòn rụm, bên ngoài được tẩm ướp đặc biệt, ăn kèm với sốt chấm hấp dẫn.",  
+      "img": "https://via.placeholder.com/150?text=Cánh+Gà+Chiên"  
     },  
+    {  
+      "id": "CH02",  
+      "name": "Đùi gà chiên",  
+      "price": 180000,  
+      "res_id": "RES02",  
+      "desc": "Đùi gà chiên vàng ruộm, mềm ngon, rất phù hợp với các món ăn kèm như cơm, khoai tây chiên.",  
+      "img": "https://via.placeholder.com/150?text=Đùi+Gà+Chiên"  
+    },  
+    {  
+      "id": "CH03",  
+      "name": "Gà rán nguyên miếng",  
+      "price": 250000,  
+      "res_id": "RES03",  
+      "desc": "Gà rán nguyên miếng, da giòn, thịt bên trong mềm và mọng nước, ăn kèm với nước sốt đặc biệt.",  
+      "img": "https://via.placeholder.com/150?text=Gà+Rán+Nguyên+Miếng"  
+    },  
+    {  
+      "id": "CH04",  
+      "name": "Gà nướng mật ong",  
+      "price": 220000,  
+      "res_id": "RES04",  
+      "desc": "Gà nướng được tẩm ướp với mật ong, mang lại hương vị ngọt ngào và thơm ngon.",  
+      "img": "https://via.placeholder.com/150?text=Gà+Nướng+Mật+Ông"  
+    },  
+    {  
+      "id": "CH05",  
+      "name": "Gà xá xíu",  
+      "price": 200000,  
+      "res_id": "RES05",  
+      "desc": "Gà xá xíu với sắc đỏ hấp dẫn, ngọt ngào, ăn kèm với cơm trắng hoặc bánh mì.",  
+      "img": "https://via.placeholder.com/150?text=Gà+Xá+Xíu"  
+    }  
+  ]  
+} ,  
     {  
       "categories": "pizza",  
       "items": []  
