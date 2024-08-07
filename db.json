@@ -1,4 +1,5 @@
-[
+{
+  "restaurants": [
   {
     "restaurant_id": 1,
     "name": "Nhà Hàng Việt Quán",
@@ -332,3 +333,5 @@
     }
   }
 ]
+
+}
