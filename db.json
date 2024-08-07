@@ -1,132 +1,113 @@
 {
-  "restaurants": [
-    {
-      "restaurant_id": 1,
-      "name": "Nhà Hàng Việt Quán",
-      "address": "1 Đường A, Quận 1, Thành phố HCM",
-      "categories": ["Ẩm thực Việt", "Món ăn gia đình"],
-      "cuisine": "Việt Nam",
-      "menu": {
-        "dishes": [
-          
-          {
-            "name": "Mì Quảng",
-            "price": 60000,
-            "description": "Mì Quảng tôm thịt",
-            "category": "Món chính"
-          },
-          {
-            "name": "Xôi gà",
-            "price": 50000,
-            "description": "Xôi với thịt gà xé",
-            "category": "Món chính"
-          },
-          {
-            "name": "Bánh xèo",
-            "price": 70000,
-            "description": "Bánh xèo nhân tôm thịt",
-            "category": "Món chính"
-          },
-          {
-            "name": "Sò điệp nướng",
-            "price": 80000,
-            "description": "Sò điệp nướng mỡ hành",
-            "category": "Món chính"
-          },
-          {
-            "name": "Lẩu thái",
-            "price": 200000,
-            "description": "Lẩu thái hải sản",
-            "category": "Món chính"
-          },
-          {
-            "name": "Trà sữa",
-            "price": 30000,
-            "description": "Trà sữa đen thơm ngon",
-            "category": "Đồ uống"
-          },
-          {
-            "name": "Nộm hoa chuối",
-            "price": 40000,
-            "description": "Nộm với hoa chuối giòn",
-            "category": "Món khai vị"
-          },
-          {
-            "name": "Canh chua",
-            "price": 50000,
-            "description": "Canh chua cá lóc",
-            "category": "Món khai vị"
-          },
-          {
-            "name": "Chè ba màu",
-            "price": 20000,
-            "description": "Chè ba màu truyền thống",
-            "category": "Món tráng miệng"
-          },
-          {
-            "name": "Bánh trôi",
-            "price": 15000,
-            "description": "Bánh trôi nước nhân đậu xanh",
-            "category": "Món tráng miệng"
-          },
-          {
-            "name": "Thịt kho tàu",
-            "price": 60000,
-            "description": "Thịt lợn kho với trứng",
-            "category": "Món chính"
-          },
-          {
-            "name": "Nước dừa tươi",
-            "price": 20000,
-            "description": "Nước dừa ngọt mát",
-            "category": "Đồ uống"
-          },
-          {
-            "name": "Soda",
-            "price": 15000,
-            "description": "Nước soda các vị",
-            "category": "Đồ uống"
-          },
-          {
-            "name": "Nước ép trái cây",
-            "price": 35000,
-            "description": "Nước ép cam tươi",
-            "category": "Đồ uống"
-          }
-        ],
-        "drinks": [
-          {
-            "name": "Trà đá",
-            "price": 10000,
-            "description": "Trà xanh đá tươi mát",
-            "category": "Đồ uống"
-          },
-          {
-            "name": "Cà phê sữa",
-            "price": 20000,
-            "description": "Cà phê sữa đá",
-            "category": "Đồ uống"
-          },
-          {
-            "name": "Nước ngọt",
-            "price": 15000,
-            "description": "Nước ngọt các loại",
-            "category": "Đồ uống"
-          },
-          {
-            "name": "Bia",
-            "price": 30000,
-            "description": "Bia lager mát lạnh",
-            "category": "Đồ uống"
-          },
-          {
-            "name": "Rượu vang",
-            "price": 150000,
-            "description": "Rượu vang đỏ Pháp",
-            "category": "Đồ uống"
-          }
-        ]
-      }
-    }
+  "restaurants": [  
+    {  
+      "restaurantName": "Nhà hàng Sushi Hàn Quốc",  
+      "menu": {  
+        "dishes": [  
+          {"name": "Sushi cá hồi", "price": 120000, "description": "Sushi tươi ngon với cá hồi", "category": "Món chính"},  
+          {"name": "Kim chi", "price": 50000, "description": "Kim chi truyền thống Hàn Quốc", "category": "Món khai vị"},  
+          {"name": "Tonkatsu", "price": 80000, "description": "Thịt heo chiên giòn", "category": "Món chính"},  
+          {"name": "Cơm cuộn", "price": 60000, "description": "Cơm cuộn rau củ tươi ngon", "category": "Món chính"},  
+          {"name": "Nước tương", "price": 10000, "description": "Nước tương dùng kèm", "category": "Đồ uống"}  
+        ],  
+        "drinks": [  
+          {"name": "Trà xanh Nhật Bản", "price": 15000, "description": "Trà xanh thơm ngon", "category": "Đồ uống"},  
+          {"name": "Nước ngọt", "price": 15000, "description": "Nước ngọt các loại", "category": "Đồ uống"},  
+          {"name": "Soda", "price": 15000, "description": "Soda các vị", "category": "Đồ uống"}  
+        ]  
+      }  
+    },  
+    {  
+      "restaurantName": "Nhà hàng Mì Cay",  
+      "menu": {  
+        "dishes": [  
+          {"name": "Mì cay", "price": 90000, "description": "Mì cay hải sản", "category": "Món chính"},  
+          {"name": "Trứng cuộn", "price": 30000, "description": "Trứng cuộn mềm mịn", "category": "Món khai vị"},  
+          {"name": "Chả cá", "price": 60000, "description": "Chả cá hấp dẫn, tươi ngon", "category": "Món chính"}  
+        ],  
+        "drinks": [  
+          {"name": "Nước chanh", "price": 15000, "description": "Nước chanh tươi", "category": "Đồ uống"},  
+          {"name": "Trà sữa", "price": 30000, "description": "Trà sữa trân châu ngọt ngào", "category": "Đồ uống"}  
+        ]  
+      }  
+    },  
+    {  
+      "restaurantName": "Nhà hàng BBQ Hàn Quốc",  
+      "menu": {  
+        "dishes": [  
+          {"name": "Thịt bò nướng", "price": 200000, "description": "Thịt bò nướng thơm ngon", "category": "Món chính"},  
+          {"name": "Đậu phụ nướng", "price": 40000, "description": "Đậu phụ nướng với sốt", "category": "Món chính"}  
+        ],  
+        "drinks": [  
+          {"name": "Bia lạnh", "price": 30000, "description": "Bia mát lạnh", "category": "Đồ uống"},  
+          {"name": "Nước ép dứa", "price": 30000, "description": "Nước ép từ trái dứa tươi", "category": "Đồ uống"}  
+        ]  
+      }  
+    },  
+    {  
+      "restaurantName": "Nhà hàng Phở Hàn Quốc",  
+      "menu": {  
+        "dishes": [  
+          {"name": "Phở bò", "price": 70000, "description": "Phở bò nổi tiếng", "category": "Món chính"},  
+          {"name": "Gỏi cuốn", "price": 30000, "description": "Gỏi cuốn tươi ngon", "category": "Món khai vị"}  
+        ],  
+        "drinks": [  
+          {"name": "Cà phê sữa", "price": 20000, "description": "Cà phê sữa ngọt ngào", "category": "Đồ uống"},  
+          {"name": "Nước dừa", "price": 20000, "description": "Nước dừa tươi mát", "category": "Đồ uống"}  
+        ]  
+      }  
+    },  
+    {  
+      "restaurantName": "Nhà hàng Bánh Ngọt Hàn Quốc",  
+      "menu": {  
+        "dishes": [  
+          {"name": "Bánh trung thu", "price": 15000, "description": "Bánh trung thu truyền thống", "category": "Món tráng miệng"},  
+          {"name": "Bánh tiramisu", "price": 30000, "description": "Bánh tiramisu thơm ngon", "category": "Món tráng miệng"}  
+        ],  
+        "drinks": [  
+          {"name": "Trà trái cây", "price": 20000, "description": "Trà trái cây giải khát", "category": "Đồ uống"},  
+          {"name": "Nước ép cam", "price": 30000, "description": "Nước ép từ cam tươi", "category": "Đồ uống"}  
+        ]  
+      }  
+    },  
+    {  
+      "restaurantName": "Nhà hàng Bánh Mì Hàn Quốc",  
+      "menu": {  
+        "dishes": [  
+          {"name": "Bánh mì thịt nguội", "price": 35000, "description": "Bánh mì với thịt nguội", "category": "Món chính"},  
+          {"name": "Bánh mì chả cá", "price": 40000, "description": "Bánh mì chả cá hấp dẫn", "category": "Món chính"}  
+        ],  
+        "drinks": [  
+          {"name": "Nước ngọt", "price": 15000, "description": "Nước ngọt các loại", "category": "Đồ uống"},  
+          {"name": "Trà xanh", "price": 15000, "description": "Trà xanh thơm", "category": "Đồ uống"}  
+        ]  
+      }  
+    },  
+    {  
+      "restaurantName": "Nhà hàng Hàn Quốc Tofu",  
+      "menu": {  
+        "dishes": [  
+          {"name": "Đậu hũ sốt cay", "price": 50000, "description": "Đậu hũ với sốt cay thơm ngon", "category": "Món chính"},  
+          {"name": "Kim chi đậu hũ", "price": 60000, "description": "Kim chi ăn kèm với đậu hũ", "category": "Món khai vị"}  
+        ],  
+        "drinks": [  
+          {"name": "Nước trái cây", "price": 30000, "description": "Nước trái cây tươi", "category": "Đồ uống"},  
+          {"name": "Trà thảo mộc", "price": 20000, "description": "Trà thảo mộc thanh mát", "category": "Đồ uống"}  
+        ]  
+      }  
+    },  
+    {  
+      "restaurantName": "Nhà hàng Nướng Hàn Quốc",  
+      "menu": {  
+        "dishes": [  
+          {"name": "Thịt nướng BBQ", "price": 250000, "description": "Thịt nướng BBQ tươi ngon", "category": "Món chính"},  
+          {"name": "Hải sản nướng", "price": 300000, "description": "Hải sản tươi ngon nướng", "category": "Món chính"}  
+        ],  
+        "drinks": [  
+          {"name": "Bia Hàn Quốc", "price": 40000, "description": "Bia ngọt, mát lạnh", "category": "Đồ uống"},  
+          {"name": "Nước khoáng", "price": 15000, "description": "Nước khoáng tinh khiết", "category": "Đồ uống"}  
+        ]  
+      }  
+    }  
   ]
 }
